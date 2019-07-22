@@ -14,7 +14,7 @@ singularity pull shub://iarcbioinfo/acnviewer-singularity
 
 Then aCNViewer can be run, for example to generate histograms from ASCAT-like input file (https://github.com/FJD-CEPH/aCNViewer#othercnvformats):
 ```
-singularity exec acnviewer_latest.sif python /data/aCNViewer/code/aCNViewer.py -f input_cnv.txt -t acnviewer_output --refBuild hg38 -b /data/aCNViewer_DATA/bin/
+singularity exec acnviewer-singularity_latest.sif python /data/aCNViewer/code/aCNViewer.py -f input_cnv.txt -t acnviewer_output --refBuild hg38 -b /data/aCNViewer_DATA/bin/
 ```
 
 Note that other modes of aCNViewer have not been tested.
