@@ -9,7 +9,7 @@ chmod -R o=u /data/
 
 The Singularity image is build automatically by [Singularity hub](https://singularity-hub.org/collections/3290) and can be download  with:
 ```
-singularity pull shub://iarcbioinfo/acnviewer-singularity
+singularity pull shub://IARCbioinfo/acnviewer-singularity
 ```
 
 Then aCNViewer can be run, for example to generate histograms from ASCAT-like input file (https://github.com/FJD-CEPH/aCNViewer#othercnvformats):
